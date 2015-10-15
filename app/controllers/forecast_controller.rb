@@ -34,7 +34,7 @@ class ForecastController < ApplicationController
 
     @current_summary = currently["summary"]
 
-    #@summary_of_next_sixty_minutes = minutely["summary"]
+    @summary_of_next_sixty_minutes = minutely["summary"]
 
     @summary_of_next_several_hours = hourly["summary"]
 
